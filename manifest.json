@@ -1,0 +1,39 @@
+{
+  "name": "claude-skills",
+  "description": "Claude Skills Collection - A collection of specialized skills for Claude Code",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "product-spec-builder",
+      "name": "Product Spec Builder",
+      "path": "skills/product-skill",
+      "description": "当用户表达想要开发产品、应用、工具或任何软件项目时，使用此技能。通过深入对话收集需求，用直白的追问帮助用户想清楚，最终生成一份可直接用于 Google AI Studio Builder 的 Product Spec 文档（.md 文件）。",
+      "category": "Product Management",
+      "capabilities": [
+        "需求挖掘与深挖",
+        "AI能力匹配",
+        "产品文档生成",
+        "界面布局设计",
+        "漏洞识别与分析"
+      ],
+      "features": {
+        "ai_first": true,
+        "deep_dialogue": true,
+        "direct_output": true
+      },
+      "output_format": "markdown",
+      "target_platform": "Google AI Studio Builder",
+      "personality": "直白、冷静、不奉承的产品经理",
+      "files": [
+        "SKILL.md",
+        "reference.md"
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "Claude Skills Team",
+    "created_date": "2026-01-08",
+    "last_updated": "2026-01-08",
+    "total_skills": 1
+  }
+}
