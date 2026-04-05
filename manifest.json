@@ -28,12 +28,40 @@
         "SKILL.md",
         "reference.md"
       ]
+    },
+    {
+      "id": "nuwa-skill",
+      "name": "女娲 Nuwa Skill",
+      "path": "skills/nuwa-skill",
+      "description": "女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。两种入口：(1)明确人名→直接蒸馏 (2)模糊需求→诊断推荐→再蒸馏。触发词：「造skill」「蒸馏XX」「女娲」「造人」「XX的思维方式」「做个XX视角」「更新XX的skill」。",
+      "category": "AI & Productivity",
+      "capabilities": [
+        "多源信息采集",
+        "思维框架提炼",
+        "心智模型萃取",
+        "Skill生成与验证",
+        "需求诊断与推荐"
+      ],
+      "features": {
+        "multi_agent_research": true,
+        "cognitive_framework_extraction": true,
+        "quality_validation": true,
+        "perspective_skill_generation": true
+      },
+      "output_format": "markdown",
+      "target_format": "Claude Code Skill",
+      "personality": "专业的认知架构师，深度的研究者",
+      "files": [
+        "SKILL.md",
+        "references/extraction-framework.md",
+        "references/skill-template.md"
+      ]
     }
   ],
   "metadata": {
     "author": "Claude Skills Team",
     "created_date": "2026-01-08",
-    "last_updated": "2026-01-08",
-    "total_skills": 1
+    "last_updated": "2026-04-05",
+    "total_skills": 2
   }
 }
